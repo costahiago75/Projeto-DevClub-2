@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    margin: 47px 303px 203px 121px;
+    display: inline-block;
+    align-items: center;
+}
+
+.link-header{
+    color: #17233D;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 36px;
+}
+
+.button-header{
+    width: 124px;
+    height: 51px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 6px;
+    background: #6FBF44;
+    border: #4CB538;
+    cursor: pointer;
+    }
+
+section{
+    display: inline-block;
+    margin-left: 96px;
+}
+
+.img-logo{
+    margin-left: 121px;
+    display: inline-block;
+   
+}
+
+h1{
+    width: 582px;
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px; /*Espaçamento das linhas do h1*/
+    margin-bottom: 47px;
+    }
+
+p{
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px; 
+    width: 493px;
+    text-align: justify;
+} 
+
+.button-section{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    width: 124px;
+    height: 51px;
+    background-color: #6FBF44;
+    margin-top: 55px;
+    border-radius: 6px;
+    border: #4CB538;
+    cursor: pointer;
+   
+    
+}
+
+@media screen and ( max-width: 930px) and (orientation:portrait) {
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing:border-box;
+    }
+
+
+
+
+ 
+
+    section{
+        display:block;
+        height: 60%;
+        width: 100%;
+        position: absolute;
+
+    }
+
+    h1{
+        width: auto;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px; /*Espaçamento entre as linhas*/
+        letter-spacing: 0.596px; /*Espaçamento entre as letra do titulo*/
+    }
+
+    p{
+        width: auto;
+        color: #4B505A;
+        text-align: center; /*Alinhando o texto ao centro*/
+        font-size: 18px;
+        font-style: normal; /*Estilo da fonte / se é italica e etc*/
+        font-weight: 400;
+        line-height: 33px; 
+        letter-spacing: 0.5px;
+     }
+
+     .button-section{
+        display: block; /*Todos os botões por pardão são position static não se move então temos que aplicar display block para que podemos alterar ele na tela*/ 
+        margin: auto; /*O botão não sabe para onde vai e se alinha ao centro*/
+        align-items: center;
+        width: 150;
+        position: relative;
+        margin-top: 26px;
+        height: 50px;
+
+     }
+
+     img{
+        max-width: 90%;
+        width: auto;
+        margin-bottom: 30px;
+       
+     }
+
+     a{
+        display: none;
+
+     }
+
+     header{
+        margin: auto;
+        display: block ;
+        margin-top: 10px;
+        margin-right: 10px ;
+     }
+
+     .button-header{
+        display: block;
+        width:150px;
+        position: relative;
+        left: 220px;
+        height: 50px;
+        margin: auto;
+       
+
+     }
+
+     
+}
+
